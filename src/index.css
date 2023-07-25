@@ -1,0 +1,55 @@
+:root {
+  --color-font-main : #111;
+  --color-font-sec : #333;
+  --color-main: #a0e943;
+  --color-danger: #e5e943;
+}
+
+*, ::after, ::before {
+  margin: 0;
+	padding: 0;
+  box-sizing: inherit;
+  font-family: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.5;
+  scroll-behavior: smooth;
+}
+
+body {
+  box-sizing: border-box;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.5;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+@media only screen and  (max-width: 1024px)  {
+  html {
+    font-size: 59%;
+  }
+}
+
+@media only screen and  (max-width: 768px)  {
+  html {
+    font-size: 56%;
+  }
+}
+
+

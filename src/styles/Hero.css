@@ -1,0 +1,151 @@
+.home-hero {
+  color: var(--color-font-sec);
+  background: linear-gradient(
+    to right,
+    rgba(245,245,245,0.8),
+    rgba(245,245,245,0.8)),
+    url(/img/common-bg.svg)
+  ;
+  background-position: center;
+  height: 100vh;
+  min-height: 80rem;
+  max-height: 120rem;
+  position: relative;
+}
+
+.home-hero__content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 90rem;
+  width: 92%;
+}
+
+.home-hero__title {
+  font-size: 6rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+  color: var(--color-font-main);
+  font-weight: 800;
+}
+
+.home-hero__info {
+  margin: 3rem auto 0 auto;
+  max-width: 80rem;
+}
+
+.text-primary {
+  color: var(--color-font-sec);
+  font-size: 2.2rem;
+  text-align: center;
+  width: 100%;
+  line-height: 1.6;
+}
+
+.home-hero__cta {
+  margin: 5rem;
+  text-align: center;
+}
+
+.home-hero__socials {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #fff;
+  box-shadow: 0 7px 29px 0 rgba(100, 100, 111, .2);
+  padding: 0.5rem;
+}
+
+.home-hero__social {
+  width: 5rem;
+}
+
+.home-hero__social-link {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  transition: background .3s;
+  border-radius: 0.5rem;
+}
+
+.home-hero__social-link:hover {
+  background-color: rgba(120, 67, 233, .2);
+}
+
+.home-hero__mouse-scroll-cont {
+  position: absolute;
+  bottom: 3%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.mouse {
+  width: 25px;
+  height: 40px;
+  border: 2px solid var(--color-font-sec);
+  border-radius: 60px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.mouse::before {
+  content: '';
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  top: 7px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--color-font-sec);
+  border-radius: 50%;
+  opacity: 1;
+  animation: scroll-symbol 1.3s infinite;
+  animation-play-state: inherit;
+}
+
+.mouse:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scroll-symbol {
+  to {
+      opacity: 0;
+      top: 27px
+  }
+}
+
+@media only screen and  (max-width: 768px)  {
+  .home-hero__socials {
+    display: none;
+  }
+}
+
+@media only screen and  (max-width: 425px)  {
+
+  .home-hero {
+    height: unset;
+    min-height: unset;
+  }
+
+  .home-hero__content {
+    padding: 19rem 0 13rem 0;
+    margin: auto;
+    position: static;
+    transform: translate(0,0);
+  }
+
+  .home-hero__title {
+    font-size: 4.5rem;
+  }
+
+  .text-primary {
+    font-size: 2rem;
+  }
+
+  .home-hero__mouse-scroll-cont {
+    display: none;
+  }
+}

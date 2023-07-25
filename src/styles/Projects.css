@@ -1,0 +1,25 @@
+.projects {
+  padding: 12rem 0;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-links {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: space-evenly;
+}
+
+@media only screen and  (max-width: 768px)  {
+
+  .projects {
+    padding: 8rem 0;
+  }
+
+}
