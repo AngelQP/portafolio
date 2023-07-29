@@ -30,7 +30,7 @@ export const About = () => {
             <div className="about__content-details">
 
             <p className="about__content-details-paragraph">
-              Soy un <strong>Frontend Web Developer</strong> que construye el front-end de sitios y aplicaciones web mejorando la calidad del producto o servicio. Dale un vistazo a algunos de mis trabahos en la sección de 
+              Soy un <strong>Frontend Web Developer</strong> que construye el front-end de sitios y aplicaciones web mejorando la calidad del producto o servicio. Dale un vistazo a algunos de mis trabajos en la sección de 
               <strong> Proyectos </strong>.
             </p>
             <p className="about__content-details-paragraph">
