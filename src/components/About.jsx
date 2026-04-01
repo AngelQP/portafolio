@@ -30,16 +30,15 @@ export const About = () => {
             <div className="about__content-details">
 
             <p className="about__content-details-paragraph">
-              Soy un <strong>Backend Developer</strong> enfocado en el desarrollo de APIs y sistemas de gestión utilizando tecnologías como NestJS, PostgreSQL y TypeORM. Me apasiona construir soluciones escalables, bien estructuradas y orientadas a la lógica de negocio, integrando React para crear interfaces funcionales que complementen el backend. Te invito a revisar algunos de mis trabajos en la sección de Proyectos
-              {/* Soy un <strong>Frontend Web Developer</strong> que construye el front-end de sitios y aplicaciones web mejorando la calidad del producto o servicio. Dale un vistazo a algunos de mis trabajos en la sección de 
-              <strong> Proyectos </strong>. */}
+              Soy un <strong>Backend Developer</strong> enfocado en el desarrollo de APIs y sistemas de gestión utilizando tecnologías como NestJS, PostgreSQL y TypeORM, construir soluciones escalables, bien estructuradas y orientadas a la lógica de negocio, integrando React para crear interfaces funcionales que complementen el backend. Te invito a revisar algunos de mis trabajos en la sección de Proyectos
             </p>
             <p className="about__content-details-paragraph">
-              Actualmente he desarrollado un sistema ERP para la gestión de producción, inventario y ventas de una empresa de postres, donde aplico arquitectura modular, autenticación con JWT y diseño de base de datos relacional, fortaleciendo mi experiencia como desarrollador backend en proyectos reales. También me gusta compartir lo que aprendo sobre desarrollo y programación a través de <a rel="noreferrer" href="https://www.linkedin.com/in/angel-quispe-pomajulca-562327116/" target="_blank"> <strong>LinkedIn </strong></a>.
+              Actualmente he desarrollado un sistema ERP para la gestión de producción, inventario y ventas de una empresa de postres. Estoy abierto a oportunidades de trabajo freelance o posiciones junior backend, donde pueda aportar mis conocimientos, seguir aprendiendo y crecer profesionalmente. Si tienes una oportunidad que se alinee con mi perfil, no dudes en <a href="https://wa.me/979379654?text=Hola%20quiero%20conocer%20más%20sobre%20tus%20servicios" target="_blank" rel="noreferrer"> <strong>contactarme</strong></a>.
+              También me gusta compartir lo que aprendo sobre desarrollo y programación a través de <a rel="noreferrer" href="https://www.linkedin.com/in/angel-quispe-pomajulca-562327116/" target="_blank"> <strong>LinkedIn </strong></a>.
             </p>
-            <p className="about__content-details-paragraph">
+            {/* <p className="about__content-details-paragraph">
               Estoy abierto a oportunidades de trabajo freelance o posiciones junior backend, donde pueda aportar mis conocimientos, seguir aprendiendo y crecer profesionalmente. Si tienes una oportunidad que se alinee con mi perfil, no dudes en <a href="https://wa.me/979379654?text=Hola%20quiero%20conocer%20más%20sobre%20tus%20servicios" target="_blank" rel="noreferrer"> <strong>contactarme</strong></a>.
-            </p>
+            </p> */}
             </div>
 
             <LinkRef $normal href='#contact'>Contacto</LinkRef>
