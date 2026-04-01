@@ -1,11 +1,12 @@
 import '../styles/Projects.css'
 import { ContainerSkills, LinkRef, MainContainer, ProjectContentText, ProjectContentTextParagraph, ProjectContentTextTitle, ProjectImage, ProjectRow, Title, TitleParagraph, TitleSection } from './ContainerStyles';
 
-import Proyecto1 from '/img/proyecto-1.png';
+// import Proyecto1 from '/img/proyecto-1.png';
 import Proyecto2 from '/img/proyecto-2.png';
 import Proyecto3 from '/img/proyecto-3.png';
 import Proyecto4 from '/img/proyecto-4.png';
-import Proyecto5 from '/img/proyecto-5.png';
+import Proyecto6 from '/img/proyecto-6.png';
+// import Proyecto5 from '/img/proyecto-5.png';
 
 export const Projects = () => {
   return (
@@ -22,6 +23,35 @@ export const Projects = () => {
         </TitleSection>
 
         <div className="projects__content">
+
+          <ProjectRow>
+            <ProjectImage src={Proyecto6}></ProjectImage>
+            <ProjectContentText>
+              <ProjectContentTextTitle>
+                Dulce Control - ERP Postre
+              </ProjectContentTextTitle>
+              <ProjectContentTextParagraph>
+                Es una aplicación de gestión empresarial (ERP) para una empresa de postres, que abarca la gestión de producción, inventario y ventas. El sistema utiliza una arquitectura modular con NestJS en el backend y React en el frontend, proporcionando una solución integral para optimizar las operaciones comerciales.
+              </ProjectContentTextParagraph>
+
+              <div className="skills">
+                <ContainerSkills>NestJS</ContainerSkills>
+                <ContainerSkills>TypeScript</ContainerSkills>
+                <ContainerSkills>Type ORM</ContainerSkills>
+                <ContainerSkills>PostgreSQL</ContainerSkills>
+                <ContainerSkills>React</ContainerSkills>
+                <ContainerSkills>React-Router</ContainerSkills>
+                <ContainerSkills>React Hook Form - Zod</ContainerSkills>
+                <ContainerSkills>Shadcn</ContainerSkills>
+
+              </div>
+
+              <div className='container-links'>
+                <LinkRef href='https://github.com/AngelQP/Frontend-ERP-React' target='_blank' $normal>Frontend</LinkRef>
+                <LinkRef href='https://github.com/AngelQP/Backend-ERP-NestJS' target='_blank' $normal>Backend</LinkRef>
+              </div>
+            </ProjectContentText>
+          </ProjectRow>
 
           <ProjectRow>
             <ProjectImage src={Proyecto2}></ProjectImage>
@@ -101,7 +131,7 @@ export const Projects = () => {
             </ProjectContentText>
           </ProjectRow>
 
-          <ProjectRow>
+          {/* <ProjectRow>
             <ProjectImage src={Proyecto1}></ProjectImage>
             <ProjectContentText>
               <ProjectContentTextTitle>
@@ -124,9 +154,9 @@ export const Projects = () => {
                 <LinkRef href='https://reto-frontend-1.onrender.com/' target='_blank' $normal>Website</LinkRef>
               </div>
             </ProjectContentText>
-          </ProjectRow>
+          </ProjectRow> */}
 
-          <ProjectRow>
+          {/* <ProjectRow>
             <ProjectImage src={Proyecto5}></ProjectImage>
             <ProjectContentText>
               <ProjectContentTextTitle>
@@ -149,7 +179,7 @@ export const Projects = () => {
                 <LinkRef href='https://bootstrap-nintendo.onrender.com/' target='_blank' $normal>Website</LinkRef>
               </div>
             </ProjectContentText>
-          </ProjectRow>
+          </ProjectRow> */}
           
         </div>
 

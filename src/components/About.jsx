@@ -16,7 +16,7 @@ export const About = () => {
           </Title>
           
           <TitleParagraph>
-            Aquí encontrarás más información sobre mí, lo que hago y mis habilidades actuales, principalmente en términos de programación y tecnología.
+            Aquí encontrarás más información sobre mi perfil como desarrollador backend, las tecnologías con las que trabajo y las habilidades que utilizo sistemas de gestión y aplicaciones web.
           </TitleParagraph>
 
         </TitleSection>
@@ -30,18 +30,15 @@ export const About = () => {
             <div className="about__content-details">
 
             <p className="about__content-details-paragraph">
-              Soy un <strong>Frontend Web Developer</strong> que construye el front-end de sitios y aplicaciones web mejorando la calidad del producto o servicio. Dale un vistazo a algunos de mis trabajos en la sección de 
-              <strong> Proyectos </strong>.
+              Soy un <strong>Backend Developer</strong> enfocado en el desarrollo de APIs y sistemas de gestión utilizando tecnologías como NestJS, PostgreSQL y TypeORM. Me apasiona construir soluciones escalables, bien estructuradas y orientadas a la lógica de negocio, integrando React para crear interfaces funcionales que complementen el backend. Te invito a revisar algunos de mis trabajos en la sección de Proyectos
+              {/* Soy un <strong>Frontend Web Developer</strong> que construye el front-end de sitios y aplicaciones web mejorando la calidad del producto o servicio. Dale un vistazo a algunos de mis trabajos en la sección de 
+              <strong> Proyectos </strong>. */}
             </p>
             <p className="about__content-details-paragraph">
-              También me gusta compartir contenido relacionado con lo que he aprendido en <strong>Desarrollo Web</strong>, de esta manera ayudar a otras persona de la comunidad de desarrolladores.
-              No dude en contactarme o seguirme en 
-              <a rel="noreferrer" href="https://www.linkedin.com/in/angel-quispe-pomajulca-562327116/" target="_blank"> <strong>Linkedin </strong></a>
-              donde estaré publicando contenido útil relacionado con el desarrollo y la programación web.
+              Actualmente he desarrollado un sistema ERP para la gestión de producción, inventario y ventas de una empresa de postres, donde aplico arquitectura modular, autenticación con JWT y diseño de base de datos relacional, fortaleciendo mi experiencia como desarrollador backend en proyectos reales. También me gusta compartir lo que aprendo sobre desarrollo y programación a través de <a rel="noreferrer" href="https://www.linkedin.com/in/angel-quispe-pomajulca-562327116/" target="_blank"> <strong>LinkedIn </strong></a>.
             </p>
             <p className="about__content-details-paragraph">
-              Estoy abierto a oportunidades de <strong>Trabajo</strong> donde pueda contribuir, aprender y crecer. Si tiene una buena oportunidad que coincida con mis habilidades y experiencia, no dude en ponerse en 
-              <strong> Contacto </strong> conmigo.
+              Estoy abierto a oportunidades de trabajo freelance o posiciones junior backend, donde pueda aportar mis conocimientos, seguir aprendiendo y crecer profesionalmente. Si tienes una oportunidad que se alinee con mi perfil, no dudes en <a href="https://wa.me/979379654?text=Hola%20quiero%20conocer%20más%20sobre%20tus%20servicios" target="_blank" rel="noreferrer"> <strong>contactarme</strong></a>.
             </p>
             </div>
 
@@ -52,20 +49,21 @@ export const About = () => {
           <div className="about__content-skills">
             <h3 className="about__content-title">Mis Habilidades</h3>
             <div className="skills">
-              <ContainerSkills>HTML</ContainerSkills>
-              <ContainerSkills>CSS</ContainerSkills>
-              <ContainerSkills>Javascript</ContainerSkills>
+              <ContainerSkills>NestJS</ContainerSkills>
+              <ContainerSkills>Express</ContainerSkills>
+              <ContainerSkills>TypeORM</ContainerSkills>
+              <ContainerSkills>PostgreSQL</ContainerSkills>
+              <ContainerSkills>REST APIs</ContainerSkills>
+              <ContainerSkills>JWT</ContainerSkills>
               <ContainerSkills>React</ContainerSkills>
+              <ContainerSkills>TypeScript</ContainerSkills>
+              <ContainerSkills>JavaScript</ContainerSkills>
               <ContainerSkills>Tailwind</ContainerSkills>
-              <ContainerSkills>Styled Components</ContainerSkills>
-              <ContainerSkills>Bootstrap</ContainerSkills>
-              <ContainerSkills>GIT</ContainerSkills>
-              <ContainerSkills>Github</ContainerSkills>
-              <ContainerSkills>Mobile First</ContainerSkills>
+              <ContainerSkills>Shadcn</ContainerSkills>
+              <ContainerSkills>Git</ContainerSkills>
+              <ContainerSkills>GitHub</ContainerSkills>
               <ContainerSkills>Responsive Design</ContainerSkills>
               <ContainerSkills>Terminal</ContainerSkills>
-              <ContainerSkills>Express Basics</ContainerSkills>
-              <ContainerSkills>SQL Basics</ContainerSkills>
             </div>
           </div>
 

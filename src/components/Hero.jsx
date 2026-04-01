@@ -14,7 +14,7 @@ export const Hero = () => {
         <h1 className='home-hero__title'>Hola, Yo soy Angel Quispe</h1>
         <div className="home-hero__info">
           <p className='text-primary'>
-            Un desarrollador web enfocado en frontend que construye el frontend de sitios y aplicaciones web mejorando la calidad del producto o servicio.
+            Desarrollador enfocado en Backend con NestJS, PostgreSQL y TypeORM, construyendo APIs y sistemas de gestión escalables. Desarrollo interfaces en React y actualmente trabajo como freelance desarrollando aplicaciones web.
           </p>
         </div>
         <div className="home-hero__cta">
