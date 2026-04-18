@@ -36,9 +36,6 @@ export const About = () => {
               Actualmente he desarrollado un sistema ERP para la gestión de producción, inventario y ventas de una empresa de postres. Estoy abierto a oportunidades de trabajo freelance o posiciones junior backend, donde pueda aportar mis conocimientos, seguir aprendiendo y crecer profesionalmente. Si tienes una oportunidad que se alinee con mi perfil, no dudes en <a href="https://wa.me/979379654?text=Hola%20quiero%20conocer%20más%20sobre%20tus%20servicios" target="_blank" rel="noreferrer"> <strong>contactarme</strong></a>.
               También me gusta compartir lo que aprendo sobre desarrollo y programación a través de <a rel="noreferrer" href="https://www.linkedin.com/in/angel-quispe-pomajulca-562327116/" target="_blank"> <strong>LinkedIn </strong></a>.
             </p>
-            {/* <p className="about__content-details-paragraph">
-              Estoy abierto a oportunidades de trabajo freelance o posiciones junior backend, donde pueda aportar mis conocimientos, seguir aprendiendo y crecer profesionalmente. Si tienes una oportunidad que se alinee con mi perfil, no dudes en <a href="https://wa.me/979379654?text=Hola%20quiero%20conocer%20más%20sobre%20tus%20servicios" target="_blank" rel="noreferrer"> <strong>contactarme</strong></a>.
-            </p> */}
             </div>
 
             <LinkRef $normal href='#contact'>Contacto</LinkRef>

@@ -47,8 +47,8 @@ export const Projects = () => {
               </div>
 
               <div className='container-links'>
-                <LinkRef href='https://github.com/AngelQP/Frontend-ERP-React' target='_blank' $normal>Frontend</LinkRef>
-                <LinkRef href='https://github.com/AngelQP/Backend-ERP-NestJS' target='_blank' $normal>Backend</LinkRef>
+                <LinkRef href='https://github.com/AngelQP/Frontend-ERP-React' target='_blank' $normal>Código</LinkRef>
+                <LinkRef href='https://frontend-erp-react.onrender.com/' target='_blank' $normal>Website</LinkRef>
               </div>
             </ProjectContentText>
           </ProjectRow>
